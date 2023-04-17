@@ -1,0 +1,100 @@
+{
+  "assignment_overview": {
+    "assignment_types": [
+      "c"
+    ],
+    "required_files": [
+      "my_string.c",
+      "my_string.h",
+      "program3.c"
+    ],
+    "ignore_files": [
+      "lcc",
+      "cpp",
+      "rcc"
+    ],
+    "required_functions": {
+      "my_string.c": [
+        "my_strcmp",
+        "my_strcmp2",
+        "my_strcat",
+        "my_strcat2",
+        "my_strccase",
+        "my_strrev",
+        "my_strchr",
+        "my_strchr2",
+        "my_strcpy",
+        "my_strcpy2"
+      ],
+      "program3.c": [
+        "main"
+      ]
+    },
+    "extra_credit_functions": {
+      "my_string.c": {
+        "my_strtok": {
+          "check_test_cases.c": "EC_testStrtok"
+        }
+      }
+    }
+  },
+  "extra_credit": {
+    "java": {},
+    "jupyter": {},
+    "python": {},
+    "c": {
+      "Makefile": {},
+      "check_test_cases": {
+        "EC_testStrtok": 0
+      }
+    }
+  },
+  "scoring": {
+    "java": {},
+    "jupyter": {},
+    "python": {},
+    "c": {
+      "Makefile": {},
+      "check_test_cases": {
+        "program3OutputIntegers1": 1,
+        "program3OutputIntegers2": 1,
+        "program3OutputStrings": 2,
+        "testStrCatHelloWorld": 1,
+        "testStrCatTesting": 1,
+        "testStrCatEmptyString": 1,
+        "testStrCat2HelloWorld": 1,
+        "testStrCat2Testing": 1,
+        "testStrCat2EmptyString": 1,
+        "testStrccaseEmptyString": 1,
+        "testStrccaseUpperLowerTesting": 1,
+        "testStrccaseMixedCasingAbcd": 1,
+        "testStrccaseMixedCasingTesting": 1,
+        "testStrchrFirstChar": 1,
+        "testStrchrDoubleChar": 1,
+        "testStrchrFinalChar": 1,
+        "testStrchr2FirstChar": 1,
+        "testStrchr2DoubleChar": 1,
+        "testStrchr2FinalChar": 1,
+        "testStrcmpSingleWord1": 1,
+        "testStrcmpNull": 1,
+        "testStrcmpSingleWord2": 1,
+        "testStrcmpMultiWord": 1,
+        "testStrcmpNotEqual": 1,
+        "testStrcmp2SingleWord1": 1,
+        "testStrcmp2Null": 1,
+        "testStrcmp2SingleWord2": 1,
+        "testStrcmp2MultiWord": 1,
+        "testStrcmp2NotEqual": 1,
+        "testStrcpyLongWord": 1,
+        "testStrcpyShortWord": 1,
+        "testStrcpyNull": 1,
+        "testStrcpy2LongWord": 1,
+        "testStrcpy2ShortWord": 1,
+        "testStrcpy2Null": 1,
+        "testStrrevNull": 1,
+        "testStrrevLowerCase": 1,
+        "testStrrevMixedCase": 1
+      }
+    }
+  }
+}

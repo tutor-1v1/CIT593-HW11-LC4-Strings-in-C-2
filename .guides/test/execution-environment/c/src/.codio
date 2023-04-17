@@ -1,0 +1,15 @@
+{
+    "commands": {
+        "Test Compile": "clear; python3 /home/codio/workspace/.guides/test/control/test_submission.py",
+        "Node version": "node --version"
+    },
+    "preview": {
+        "PennSim Window": "https://{{domain3000}}/",
+        "Virtual Desktop": "https://{{domain3000}}/",
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+    },
+    "autogradeTestScripts": [".guides/secure/autograde.sh",".guides/secure/control/autograde.sh",".guides/secure/control/execute_grading_scripts.py"]
+}
